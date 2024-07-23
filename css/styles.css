@@ -1,0 +1,85 @@
+.bg {
+    background-color: #15161d !important;
+}
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.relative {
+    position: relative;
+}
+.bg-primary {
+    background-color: var(--color-primary);
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.w-5 {
+    width: 1.25rem;
+}
+.h-5 {
+    height: 1.25rem;
+}
+.flex {
+    display: flex;
+}
+.top-\[-10px\] {
+    top: -10px;
+}
+.right-0 {
+    right: 0;
+}
+.absolute {
+    position: absolute;
+}
+/* Make category items bold */
+#categories li {
+    font-weight: 500;
+    line-height: 30px;
+  }
+  
+  /* Remove the clickable cursor on hover */
+  #categories li:hover {
+    cursor: pointer;
+    background-color: transparent; /* Optional: to remove any default hover effects */
+  }
+  
+
+  /* Ensure all product cards are the same size */
+#products-container .col-md-4 {
+    height: 100%; /* Ensure full height */
+    display: flex;
+    align-items: stretch;
+  }
+  
+  #products-container .border {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Improve font appearance */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h5 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:'Roboto Serif';
+  }
+  
+  p {
+    font-size: 0.875rem;
+  }
+  
